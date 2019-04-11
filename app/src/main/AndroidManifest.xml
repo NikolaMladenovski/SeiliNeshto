@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dimov.seilineshto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7387387981734551~9074572688"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".Igraj"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".ScoreTable"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Settings"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name=".sqlContentProvider"
+            android:authorities="com.example.dimov.seilineshto.provider" />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Se ili neshto</string>
+    <string name="notification_title">НОТИФИКАЦИЈА</string>
+    <string name="notification_text">НЕМАТЕ ИГРАНО 1 ден</string>
+    <string name="_1">1</string>
+    <string name="_30">30</string>
+    <string name="_40">40</string>
+    <string name="_50">50</string>
+    <string name="_100">100</string>
+    <string name="_250">250</string>
+    <string name="_500">500</string>
+    <string name="_750">750</string>
+    <string name="nazad">Назад</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_10">10</string>
+    <string name="_11">11</string>
+    <string name="_12">12</string>
+    <string name="_13">13</string>
+    <string name="_14">14</string>
+    <string name="_15">15</string>
+    <string name="_16">16</string>
+    <string name="_17">17</string>
+    <string name="_18">18</string>
+    <string name="_19">19</string>
+    <string name="_20">20</string>
+    <string name="_21">21</string>
+    <string name="_22">22</string>
+    <string name="odberete">Одберете ја својата кутија</string>
+    <string name="nevazi">Понудата не важи</string>
+    <string name="vazi">Понудата важи</string>
+    <string name="_1_000">1.000</string>
+    <string name="_2_000">2.000</string>
+    <string name="_3_000">3.000</string>
+    <string name="_4_000">4.000</string>
+    <string name="_5_000">5.000</string>
+    <string name="_10_000">10.000</string>
+    <string name="_20_000">20.000</string>
+    <string name="_35_000">35.000</string>
+    <string name="_100_000">100.000</string>
+    <string name="_250_000">250.000</string>
+    <string name="_1_000_000">1.000.000</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_score">Score</string>
+</resources>
